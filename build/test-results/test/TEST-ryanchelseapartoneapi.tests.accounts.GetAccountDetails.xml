@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ryanchelseapartoneapi.tests.accounts.GetAccountDetails" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-06T06:25:33" hostname="CHELSEAL-LP" time="2.937">
+  <properties/>
+  <testcase name="viewAccountDetails" classname="ryanchelseapartoneapi.tests.accounts.GetAccountDetails" time="2.937"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://bankground.apimate.eu/accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5NzkyNzM0fQ.WjlC28LHnFFYEFsLEPqNIQ5ndrLIZfHg-y1futlYiR8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "balance": 1000,
+    "account_name": "accountName"
+}
+Request method:	GET
+Request URI:	https://bankground.apimate.eu/accounts/371
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5NzkyNzM1fQ.HOzT0v1ne5L00M2hEx-lHrZet9VQpgs6BbE3YPh7sqE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ryanchelseapartoneapi.tests.users.GetUser" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-06T06:25:45" hostname="CHELSEAL-LP" time="1.497">
+  <properties/>
+  <testcase name="getCurrentUser" classname="ryanchelseapartoneapi.tests.users.GetUser" time="1.497"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://bankground.apimate.eu/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5NzkyNzQ2fQ.9MdLzK7uYe_h2YY1bKhMylcYZSy20dea78iIlKzEPhQ
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
