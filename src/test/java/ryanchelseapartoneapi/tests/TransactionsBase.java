@@ -13,7 +13,7 @@ public class TransactionsBase extends BaseTest {
         return given().
                 header(new Header("Authorization", "Bearer " + getAccessTokens())).
                 contentType("application/json").
-                when().log().all().
+                when().
                 get("/accounts/" + id + "/transactions/" + transactionId).
                 then().
                 extract().

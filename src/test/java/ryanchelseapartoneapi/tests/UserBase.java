@@ -22,7 +22,7 @@ public class UserBase extends BaseTest {
         return given().
                 contentType("application/json").
                 body(commonObjects.createUserObject(FIRST_NAME,LAST_NAME,EMAIL,PASSWORD,COMPANY)).
-                when().log().all().
+                when().
                 post("/users").
                 then().
                 extract().
@@ -33,7 +33,7 @@ public class UserBase extends BaseTest {
         return given().
                 header(new Header("Authorization", "Bearer " + getAccessTokens())).
                 contentType("application/json").
-                when().log().all().
+                when().
                 get("/me").
                 then().
                 extract().

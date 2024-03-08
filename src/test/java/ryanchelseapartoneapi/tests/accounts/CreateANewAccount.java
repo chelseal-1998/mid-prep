@@ -9,7 +9,7 @@ public class CreateANewAccount extends AccountsBase {
     @Test
     public void createNewAccount(){
         createANewAccount().
-                then().log().all().
+                then().
                 assertThat().
                 statusCode(HttpStatus.SC_CREATED).
                 spec(getAccountDetailsExpectedResponse());

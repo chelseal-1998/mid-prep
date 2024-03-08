@@ -11,7 +11,7 @@ public class CreateTransaction extends TransactionsBase {
     @Test()
     public void createTransaction(){
         int id = accountsBase.createANewAccount().
-                then().log().all().
+                then().
                 assertThat().
                 statusCode(HttpStatus.SC_CREATED).
                 extract().

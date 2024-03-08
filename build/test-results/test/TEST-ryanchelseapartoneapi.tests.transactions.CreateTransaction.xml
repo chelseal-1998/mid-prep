@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ryanchelseapartoneapi.tests.transactions.CreateTransaction" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-06T06:25:38" hostname="CHELSEAL-LP" time="2.791">
+<testsuite name="ryanchelseapartoneapi.tests.transactions.CreateTransaction" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-08T06:26:44" hostname="CHELSEAL-LP" time="2.851">
   <properties/>
-  <testcase name="createTransaction" classname="ryanchelseapartoneapi.tests.transactions.CreateTransaction" time="2.791"/>
+  <testcase name="createTransaction" classname="ryanchelseapartoneapi.tests.transactions.CreateTransaction" time="2.851"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	https://bankground.apimate.eu/accounts
 Proxy:			<none>
@@ -9,7 +9,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5NzkyNzM4fQ.SvkmO1HqTboujkyiONobMUA80h0BOAIp2MDS1GfjzTg
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjA1fQ.kIKzfd6POMib-WMUvpeUc6o2HqsgtSXfX9ncKPHNd_U
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -19,31 +19,14 @@ Body:
     "balance": 1000,
     "account_name": "accountName"
 }
-HTTP/1.1 201 Created
-Date: Wed, 06 Mar 2024 06:25:38 GMT
-Server: Apache
-content-length: 202
-content-type: application/json
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-
-{
-    "id": 372,
-    "account_name": "accountName",
-    "balance": 1000,
-    "currency": "EUR",
-    "iban": "GB42YUWB29009024619557",
-    "created_at": "2024-03-06T06:25:39.261258+00:00",
-    "last_activity": "2024-03-06T06:25:39.261267+00:00"
-}
 Request method:	POST
-Request URI:	https://bankground.apimate.eu/accounts/372/transactions
+Request URI:	https://bankground.apimate.eu/accounts/377/transactions
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5NzkyNzQwfQ.eu7pGwoGwp9rbIsMX1D87J2NREM9U_3-DXIdKdQji7E
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjA2fQ.yJzWv8roQwunB3YV6_7OtT0tHKlQIQCfxWMKfPRjXes
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>

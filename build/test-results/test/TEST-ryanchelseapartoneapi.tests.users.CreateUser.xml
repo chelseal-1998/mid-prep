@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ryanchelseapartoneapi.tests.users.CreateUser" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-03-06T06:25:45" hostname="CHELSEAL-LP" time="0.576">
+<testsuite name="ryanchelseapartoneapi.tests.users.CreateUser" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-03-08T06:26:51" hostname="CHELSEAL-LP" time="0.772">
   <properties/>
-  <testcase name="createUserSuccessfully" classname="ryanchelseapartoneapi.tests.users.CreateUser" time="0.576">
+  <testcase name="createUserSuccessfully" classname="ryanchelseapartoneapi.tests.users.CreateUser" time="0.772">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;400&gt;.
 
@@ -79,27 +79,8 @@ Expected status code &lt;201&gt; but was &lt;400&gt;.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <system-out><![CDATA[Request method:	POST
-Request URI:	https://bankground.apimate.eu/users
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "password": "Gk_secret_passsowrd",
-    "last_name": "LastName",
-    "company": "Gk",
-    "first_name": "Firstname123",
-    "email": "LastName1@gmail.com"
-}
-HTTP/1.1 400 Bad Request
-Date: Wed, 06 Mar 2024 06:25:45 GMT
+  <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Date: Fri, 08 Mar 2024 06:26:52 GMT
 Server: Apache
 content-length: 63
 content-type: application/json

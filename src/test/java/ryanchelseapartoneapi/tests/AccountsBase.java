@@ -19,7 +19,7 @@ public class AccountsBase extends BaseTest {
         return given().
                 header(new Header("Authorization", "Bearer " + getAccessTokens())).
                 contentType("application/json").
-                when().log().all().
+                when().
                 get("/accounts").
                 then().
                 extract().

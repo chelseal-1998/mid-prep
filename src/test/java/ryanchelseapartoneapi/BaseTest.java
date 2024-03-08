@@ -1,11 +1,12 @@
 package ryanchelseapartoneapi;
 
 import io.restassured.RestAssured;
-import ryanchelseapartoneapi.tests.UserBase;
-import ryanchelseapartoneapi.utils.CustomTestData;
+import io.restassured.http.Header;
 import org.testng.annotations.BeforeMethod;
 import ryanchelseapartoneapi.common.CommonObjects;
 import ryanchelseapartoneapi.tests.AccountsBase;
+import ryanchelseapartoneapi.tests.UserBase;
+import ryanchelseapartoneapi.utils.CustomTestData;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,13 +20,13 @@ public abstract class BaseTest {
 
     public static final String PROPERTIES_FILE = "rocket.properties";
     public static CommonObjects commonObjects;
-    private final Properties properties = new Properties();
     public static CustomTestData customTestData;
     public static AccountsBase accountsBase;
     public static UserBase userBase;
+    private final Properties properties = new Properties();
 
     @BeforeMethod(alwaysRun = true)
-    public void setUpApi() throws IOException {
+    public void setUpApi() {
         setUpTestDataFileSimilarToAProperties();
         customTestData = new CustomTestData(getProperties());
         setUpEnvironment();
@@ -56,7 +57,7 @@ public abstract class BaseTest {
 
     public String getAccessTokens() {
         return given().
-                contentType("application/x-www-form-urlencoded").
+                header(contentTypeHeader()).
                 when().
                 body("username=" + customTestData.getAuthorizedUsername() + "&password=" + customTestData.getAuthorizedPassword()).
                 post("/token").
@@ -64,5 +65,9 @@ public abstract class BaseTest {
                 extract().
                 jsonPath().
                 get("access_token");
+    }
+
+    public Header contentTypeHeader() {
+        return new Header("Content-Type", "application/x-www-form-urlencoded");
     }
 }
