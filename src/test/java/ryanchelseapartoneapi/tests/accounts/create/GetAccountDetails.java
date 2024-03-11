@@ -1,8 +1,8 @@
-package ryanchelseapartoneapi.tests.accounts;
+package ryanchelseapartoneapi.tests.accounts.create;
 
 import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
-import ryanchelseapartoneapi.tests.AccountsBase;
+import ryanchelseapartoneapi.tests.accounts.AccountsBase;
 
 public class GetAccountDetails extends AccountsBase {
 

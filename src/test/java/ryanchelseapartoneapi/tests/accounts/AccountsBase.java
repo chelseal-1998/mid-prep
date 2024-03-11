@@ -1,4 +1,4 @@
-package ryanchelseapartoneapi.tests;
+package ryanchelseapartoneapi.tests.accounts;
 
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.Header;

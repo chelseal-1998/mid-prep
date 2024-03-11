@@ -1,224 +1,0 @@
-Request method:	POST
-5Request URI:	https://bankground.apimate.eu/accounts
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NTkxfQ.-ufpOy4ftuw386xM59bYjTT4coAlN2dt7b6lBEHoYfM
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "balance": 1000,
-"    "account_name": "accountName"
-}
-Request method:	POST
-5Request URI:	https://bankground.apimate.eu/accounts
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NTk1fQ.p-HyYYNjWmy8WolKXgeBeWRAiN2qnqTxtIuFoHM50hU
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "balance": 1000,
-"    "account_name": "accountName"
-}
-Request method:	DELETE
-9Request URI:	https://bankground.apimate.eu/accounts/375
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NTk3fQ.V8p6yY4sWOc2K_kCz1eK1mTl5VMi3G1Hxve3ppSu8-A
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-9Request URI:	https://bankground.apimate.eu/accounts/375
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NTk4fQ.3GbWUe8KWSJ_Rh6ug41hnipAdjSO1MGhNb-l1p9uS5U
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	POST
-5Request URI:	https://bankground.apimate.eu/accounts
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjAwfQ.OCJHf87E96WmeJ-246unv_kKXVQmkfibq7E6JIJB7uo
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "balance": 1000,
-"    "account_name": "accountName"
-}
-Request method:	GET
-9Request URI:	https://bankground.apimate.eu/accounts/376
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjAxfQ.dgwjNfHVeFeBrZF2h-yMOtI8jL0vBI3BSDEp5ic1I_s
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-
-	Request method:	POST
-
-	5Request URI:	https://bankground.apimate.eu/accounts
-
-	Proxy:			<none>
-
-	Request params:	<none>
-
-	Query params:	<none>
-
-	Form params:	<none>
-
-	Path params:	<none>
-
-	¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjA1fQ.kIKzfd6POMib-WMUvpeUc6o2HqsgtSXfX9ncKPHNd_U
-
-					Accept=*/*
-
-	#				Content-Type=application/json
-
-	Cookies:		<none>
-
-	Multiparts:		<none>
-
-	Body:
-
-	{
-
-	    "balance": 1000,
-
-	"    "account_name": "accountName"
-
-	}
-
-	Request method:	POST
-
-	FRequest URI:	https://bankground.apimate.eu/accounts/377/transactions
-
-	Proxy:			<none>
-
-	Request params:	<none>
-
-	Query params:	<none>
-
-	Form params:	<none>
-
-	Path params:	<none>
-
-	¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjA2fQ.yJzWv8roQwunB3YV6_7OtT0tHKlQIQCfxWMKfPRjXes
-
-					Accept=*/*
-
-	#				Content-Type=application/json
-
-	Cookies:		<none>
-
-	Multiparts:		<none>
-
-	Body:
-
-	{
-
-	    "note": "Salary",
-
-	    "amount": 100,
-
-	(    "counterparty_name": "Susan White",
-
-	.    "counterparty_iban": "NL91ABNA0417164300"
-
-	}
-Request method:	POST
-5Request URI:	https://bankground.apimate.eu/accounts
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjA3fQ.dEtBYIAnKao05BgBdSTeGF8jFDu-S9E3E4FMpJHhzxw
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "balance": 1000,
-"    "account_name": "accountName"
-}
-Request method:	POST
-FRequest URI:	https://bankground.apimate.eu/accounts/378/transactions
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjA5fQ.EOczMsaoMIbPpBpMABy52GF16M8AHjnObOczdm0a1P8
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "note": "Salary",
-    "amount": 100,
-(    "counterparty_name": "Susan White",
-.    "counterparty_iban": "NL91ABNA0417164300"
-}
-HTTP/1.1 400 Bad Request
-%Date: Fri, 08 Mar 2024 06:26:52 GMT
-Server: Apache
-content-length: 63
- content-type: application/json
-Connection: close
-
-{
-C    "detail": "User with email LastName1@gmail.com already exists"
-}
-Request method:	PUT
-/Request URI:	https://bankground.apimate.eu/me
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-¼Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJGbGF2aW9fV3Vja2VydDE2QGhvdG1haWwuY29tIiwiZXhwIjoxNzA5OTY1NjE0fQ.9d1xjyWf7TlnhpT5-iufc7mQNsFCQeH-pc2iHwlUU78
-				Accept=*/*
-#				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-$    "company": "updatedCompanyName"
-}

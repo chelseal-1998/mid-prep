@@ -18,10 +18,10 @@ import org.apache.commons.text.RandomStringGenerator;
 
 public class UserBase extends BaseTest {
 
-    public Response createUser() {
+    public Response createUser(JSONObject userDetails) {
         return given().
                 contentType("application/json").
-                body(commonObjects.createUserObject(FIRST_NAME,LAST_NAME,EMAIL,PASSWORD,COMPANY)).
+                body(userDetails).
                 when().
                 post("/users").
                 then().
@@ -51,9 +51,9 @@ public class UserBase extends BaseTest {
                 extract().
                 response();
     }
-    public ResponseSpecification getUserDetailsExpectedResponse(){
+    public ResponseSpecification getUserDetailsExpectedResponse(int statusCode){
         ResponseSpecBuilder resBuilder = new ResponseSpecBuilder();
-        resBuilder.expectStatusCode(HttpStatus.SC_OK).
+        resBuilder.expectStatusCode(statusCode).
                 expectBody("first_name", notNullValue()).
                 expectBody("last_name", notNullValue()).
                 expectBody("email", notNullValue()).

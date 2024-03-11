@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ryanchelseapartoneapi.tests.accounts.GetAllAccounts" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-08T06:26:42" hostname="CHELSEAL-LP" time="1.39">
-  <properties/>
-  <testcase name="viewAllAccounts" classname="ryanchelseapartoneapi.tests.accounts.GetAllAccounts" time="1.39"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

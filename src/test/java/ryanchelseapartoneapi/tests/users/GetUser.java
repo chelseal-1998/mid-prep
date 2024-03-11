@@ -12,6 +12,6 @@ public class GetUser extends UserBase {
                 then().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
-                spec(getUserDetailsExpectedResponse());
+                spec(getUserDetailsExpectedResponse(HttpStatus.SC_OK));
     }
 }

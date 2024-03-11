@@ -4,13 +4,12 @@ import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import org.testng.annotations.BeforeMethod;
 import ryanchelseapartoneapi.common.CommonObjects;
-import ryanchelseapartoneapi.tests.AccountsBase;
+import ryanchelseapartoneapi.tests.accounts.AccountsBase;
 import ryanchelseapartoneapi.tests.UserBase;
 import ryanchelseapartoneapi.utils.CustomTestData;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Properties;
 

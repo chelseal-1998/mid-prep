@@ -4,3 +4,4 @@
 allure-results
 rocket.properties
 .gradle
+build

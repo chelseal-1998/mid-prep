@@ -2,9 +2,7 @@ package ryanchelseapartoneapi.tests.transactions;
 
 import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
-import ryanchelseapartoneapi.tests.AccountsBase;
 import ryanchelseapartoneapi.tests.TransactionsBase;
-import ryanchelseapartoneapi.utils.CustomTestData;
 
 public class CreateTransaction extends TransactionsBase {
 
